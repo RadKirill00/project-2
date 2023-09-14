@@ -1,0 +1,130 @@
+body {
+  height: 100vh;
+  /* Направление градиента по вертикали от белого сверху к розовому снизу */
+  background-image: linear-gradient(#cc7a5a, #914865, #382e55);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+}
+.container__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  margin-left: 50px;
+}
+.logo {
+}
+.header__nav {
+}
+.nav__ul {
+  font-size: 20px;
+}
+.nav__li {
+  display: inline;
+  margin-right: 60px;
+}
+.nav__li-link {
+  text-decoration: none;
+  color: #232323;
+}
+.nav__li-link:hover {
+  color: #d72880;
+}
+.nav__li-link:active {
+  color: inherit;
+}
+.header__cont {
+}
+.cont__img {
+  width: 30px;
+  margin-right: 50px;
+}
+.cont__img:hover {
+  transform: scale(1.2);
+}
+.cont__img-1 {
+  margin-right: 20px;
+  width: 30px;
+}
+.cont__img-1:hover {
+  transform: scale(1.2);
+}
+.cont__link {
+}
+.main {
+  width: 600px;
+  height: 700px;
+  background-image: linear-gradient(
+    #f1ae87,
+    #f6908c,
+    #e976a4,
+    #c16cc4,
+    #6a71de
+  );
+  margin: 90px auto;
+  border-radius: 30px;
+  border: 1px solid purple;
+  box-shadow: 0 0 20px #555;
+}
+.content__calc {
+  padding: 20px;
+}
+.screen {
+  background: #f1f1f1f1;
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 20px;
+  font-size: 35px;
+  overflow: auto;
+  text-align: right;
+  padding: 20px;
+}
+.calc-button-row {
+  display: flex;
+  justify-content: space-between;
+}
+.calc-buttons {
+  margin: 5px 0;
+}
+.calc-button {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  flex-basis: 18%;
+  font-family: inherit;
+  font-size: 20px;
+  height: 100px;
+  margin-top: 10px;
+}
+.calc-button:last-child {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  background: #d72880;
+}
+.calc-button:last-child:hover {
+  background-color: inherit;
+  color: inherit;
+}
+.calc-button:hover {
+  background-color: inherit;
+}
+.calc-button:active {
+  background: #c16cc4;
+}
+
+.triple {
+  flex-basis: 73%;
+}
+.double {
+  flex-basis: 46%;
+}

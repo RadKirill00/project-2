@@ -1,0 +1,126 @@
+body {
+  height: 100vh;
+  /* Направление градиента по вертикали от белого сверху к розовому снизу */
+  background-image: linear-gradient(#cc7a5a, #914865, #382e55);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 1750px;
+}
+.container__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  margin-left: 50px;
+}
+.logo {
+}
+.header__nav {
+}
+.nav__ul {
+  font-size: 20px;
+}
+.nav__li {
+  display: inline;
+  margin-right: 60px;
+}
+.nav__li-link {
+  text-decoration: none;
+  color: #232323;
+}
+.nav__li-link-2 {
+  color: #d72880;
+}
+.nav__li-link:hover {
+  color: #d72880;
+}
+.nav__li-link:active {
+  color: inherit;
+}
+.header__cont {
+}
+.cont__img {
+  width: 30px;
+  margin-right: 50px;
+}
+.cont__img:hover {
+  transform: scale(1.2);
+}
+.cont__img-1 {
+  margin-right: 20px;
+  width: 30px;
+}
+.cont__img-1:hover {
+  transform: scale(1.2);
+}
+.main__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+}
+.card-1 {
+  background-image: linear-gradient(#cc7a5a, #914865, #382e55);
+
+  border-radius: 30px;
+  width: 700px;
+  height: 350px;
+  margin-right: 50px;
+  margin-left: 30px;
+}
+.card-2 {
+  background-image: linear-gradient(#cc7a5a, #914865, #382e55);
+
+  border-radius: 30px;
+  width: 700px;
+  height: 350px;
+  margin-right: 50px;
+}
+.card-3 {
+  background-image: linear-gradient(#cc7a5a, #914865, #382e55);
+
+  border-radius: 30px;
+  width: 700px;
+  height: 350px;
+
+  margin-right: 30px;
+}
+.card-4 {
+  display: flex;
+  margin-top: 70px;
+}
+.text {
+  padding-top: 30px;
+  color: #382e55;
+  font-size: 20px;
+  padding-left: 40px;
+}
+.tittle {
+  font-size: 35px;
+  padding-left: 40px;
+  padding-top: 35px;
+  color: #232323;
+}
+.text-2 {
+  padding-left: 40px;
+  font-size: 20px;
+  padding-top: 40px;
+  color: #382e55;
+}
+.text-3 {
+  padding-left: 40px;
+  padding-top: 40px;
+  font-size: 20px;
+  margin-top: 15px;
+  color: #382e55;
+}
+.sept {
+  margin-left: 35px;
+  border: 2px solid black;
+  padding: 5px 25px 5px 20px;
+  border-radius: 15px;
+  background: black;
+  color: #914865;
+}
